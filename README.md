@@ -1,5 +1,5 @@
 # GCVD: Globally Consistent Video Depth and Pose Estimation with Efficient Test-Time Training
-This repository contains the pytorch implementations of GCVD.
+This repository contains the pytorch implementations of GCVD [[arxiv](https://arxiv.org/abs/2208.02709)]. 
 
 ## Setup
 Tested on Python 3.7 and PyTorch 1.8.0 on CUDA 10.1.
@@ -70,11 +70,11 @@ python3 visualize.py outputs/test test-dataset/chess/seq-01
 ---
 ### Citation
 ```Bibtex
-@InProceedings{
-    author    = {Lee, Yao-Chih and Tseng, Kuan-Wei and Chen, Guan-Sheng and Chen, Chu-Song},
-    title     = {Globally Consistent Video Depth and Pose Estimation with Efficient Test-Time Training},
-    booktitle = {},
-    year      = {2022}
+@misc{lee2022gcvd,
+    Author = {Yao-Chih Lee and Kuan-Wei Tseng and Guan-Sheng Chen and Chu-Song Chen},
+    Title = {Globally Consistent Video Depth and Pose Estimation with Efficient Test-Time Training},
+    Year = {2022},
+    Eprint = {arXiv:2208.02709},
 }
 ```
 ### License
